@@ -15,6 +15,7 @@ import javax.swing.plaf.synth.SynthOptionPaneUI;
     2) 다중 주석 : / + shift 8 + enter
     3) 사후 주석 : 주석 처리할 부분의 코드 라인에 ctrl + /(Mac : command + /)
  */
+
 public class Main {
     public static void main(String[] args) {
         System.out.println("안녕하세요, 제 이름은 김선영입니다.");
