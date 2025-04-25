@@ -25,6 +25,8 @@ public class Car {
     // 필드 선언
     String color;
     int speed;
+    // 생성자를 배우면 해결되는 개념
+//    String eval2 = (speed > 100 ? "빠릅니다" : "그냥저냥입니다.");
 
     // 메서드 정의
     public void drive(){
@@ -40,4 +42,5 @@ public class Car {
         String eval = (speed > 100 ? "빠릅니다" : "그냥저냥입니다.");
         System.out.println("이 차의 색깔은 " + color + "이고,\n최고 속도는 " + speed + "km/h입니다." + eval);
     }
+
 }
